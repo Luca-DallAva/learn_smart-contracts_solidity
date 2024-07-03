@@ -1,4 +1,5 @@
-# Learning-Solidity
+# Learning the basics of Smart Contracts in Solidity
+
 A few small projects for learning the basics of Solidity and smart contracts, which I hope can be as helpful to others as they are to me.
 
 The main source I follow is https://www.youtube.com/@BlockExplorerMedia. 
