@@ -48,7 +48,8 @@ contract Value {
    }
 
    // Function which returns the value
-   // the attribute "view" means that the function does not change data on the blockchain
+   // the attribute "view" means that the function does not change data on the blockchain but can read it
+   // the attribute "pure" means that the function does not change data on the blockchain and cannot read it
    // One needs to specify the return type
 
    function get_value() public view returns (string memory) {
