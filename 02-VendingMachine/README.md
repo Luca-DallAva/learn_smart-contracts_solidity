@@ -1,5 +1,7 @@
 #Vending Machine for sodas and snacks
 
+Based on https://www.youtube.com/watch?v=wWAkR7CUwe4&t=653s
+
 RemixAI description:
 
 This Solidity code defines a smart contract named VendingMachine. The contract is designed to represent a simple vending machine that sells two types of items: "sodas" and "snacks". Each item has an initial supply of 100 sodas and 50 snacks, but this quantity can be increased using the `restock` function if called by the contract owner.
