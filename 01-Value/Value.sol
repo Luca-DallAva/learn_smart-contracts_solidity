@@ -62,4 +62,17 @@ contract Value {
        return  string.concat(prefix_counter, Strings.toString(counter));
    }
 
+   // Here we add a the possibility to receive Ehter from an external source.
+   // a function "fun" is external if it is only visible externally (can be accessed within the current
+   // contract via 'this.fun')
+   // the attribute payable means that the function can accept Ether sent to the contract. If not specified,
+   // it will reject any transaction
+   // This function is executed when a contract receives Ether (without additional data)
+
+   receive() external payable {}
+
+   // One can also define a function for this purpose, we call it "tips"
+
+   function tips() public payable {}
+
 }
